@@ -66,3 +66,17 @@ The sequential execution time is used as the baseline for calculating the speedu
 | Speedup | OpenMP achieved a **2.63× speedup** over sequential execution |
 | Parallelism | Performance improved using **8-thread shared-memory parallelism** |
 | Baseline | Sequential execution was used as the baseline for speedup calculation |
+
+## 5. Performance Visualizations
+
+### Figure 1: Sequential Execution
+
+<img src="https://raw.githubusercontent.com/Tanmayee-kalal/Lab1/main/sequential.jpeg" alt="Sequential Execution" width="800">
+
+**Figure 1:** Sequential matrix multiplication execution output.
+
+### Figure 2: OpenMP Execution
+
+<img src="https://raw.githubusercontent.com/Tanmayee-kalal/Lab1/main/OpenMP.jpeg" alt="OpenMP Execution" width="800">
+
+**Figure 2:** OpenMP matrix multiplication execution using 8 threads.
