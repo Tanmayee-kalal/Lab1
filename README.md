@@ -167,3 +167,5 @@ CUDA provides massive parallelism because many matrix elements can be calculated
 | CUDA | 0.165 | 2109.18× | 775.74 |
 
 ## Execution Time
+
+![Matrix Multiplication (4000x4000) Execution Time Comparison](execution_time_chart.png)
