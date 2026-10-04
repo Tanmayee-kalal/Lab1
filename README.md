@@ -89,12 +89,36 @@ MPI uses distributed-memory parallelism. The matrix computation is divided betwe
 
 ```bash
 mpicc -O2 src/mpi/matrix_mpi.c -o mpi_matrix_mul
-
 mpirun -np 4 ./mpi_matrix_mul
-
 mpirun --hostfile hostfile -np 4 ./mpi_matrix_mul
 
+### ⚠️ IMPORTANT
 
-So yes — **`Execution`, `Compilation`, `For a configured host file`, and `MPI Communication` are all part of the README.**
+When you paste it into GitHub, **make sure the first and last ``` are actually there** around each command.
 
-If you have more sections below **MPI Communication**, send me the screenshot and I'll give you the **entire thing in one copy-paste block**.
+Your README source should look like this:
+
+**Compilation**  
+→ heading
+
+**grey box**  
+→ `mpicc -O2...`
+
+**Execution**  
+→ heading
+
+**grey box**  
+→ `mpirun -np 4...`
+
+**For a configured host file:**  
+→ normal text
+
+**grey box**  
+→ `mpirun --hostfile...`
+
+**MPI Communication**  
+→ heading
+
+Then click **Preview**. It should look like your **first screenshot**, not the current one.
+
+Also, **do NOT paste my explanatory sentences** like “So yes — Execution…” into your README. Those were instructions for you, not README content.
