@@ -186,20 +186,6 @@ The OpenMP header file is included to provide access to OpenMP functions and fea
 
 double end = omp_get_wtime();
 double execution_time = end - start;
-Then click:
-
-**Commit changes → Commit changes**
-
-✅ **Step 11 complete.**
-
-Say **"next"** and we'll move to **Step 12 — Implementation and Compilation/Execution Commands**.## 10. Implementation
-
-The experiment was implemented using two C programs:
-
-- A sequential implementation for finding the maximum and minimum values.
-- An OpenMP-based parallel implementation for performing the same operation using multiple threads.
-
-Both implementations produce the same maximum and minimum values. The main difference is the way the input data is processed.
 
 ### 10.1 Sequential Implementation
 
