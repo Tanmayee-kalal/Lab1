@@ -176,4 +176,12 @@ CUDA provides massive parallelism because many matrix elements can be calculated
 
 ## Computational Throughput (GFLOPS)
 
-![Computational Throughput Performance (GFLOPS)](gflops_throughput_chart.png)
+![Computational Throughput Performance (GFLOPS)](gflops_throughput_chart.png) 
+
+## Execution Time Scaling Across Problem Sizes
+
+![Execution Time Scaling Across Problem Sizes](matrix_scaling_chart.png) 
+
+### Combined Performance & Speedup Benchmarks
+
+![Combined Performance and Speedup Benchmarks](combined_performance_speedup.png)
