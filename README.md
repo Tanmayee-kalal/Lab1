@@ -112,3 +112,9 @@ mpirun --hostfile hostfile -np 4 ./mpi_matrix_mul
 #### Figure 4: MPI Send/Receive Execution
 
 ![Figure 4: MPI Send/Receive Execution](mpi_send_recv.png)
+
+### Results
+
+#### Figure 5: MPI Matrix Multiplication Result
+
+![Figure 5: MPI Matrix Multiplication Result](mpi_result.png)
