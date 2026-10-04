@@ -166,3 +166,7 @@ double start = omp_get_wtime();
 double end = omp_get_wtime();
 
 double execution_time = end - start;
+
+gcc -fopenmp program.c -o program
+
+./program
