@@ -104,3 +104,11 @@ mpirun --hostfile hostfile -np 4 ./mpi_matrix_mul
 ```
 
 ### MPI Communication
+
+#### Figure 3: MPI Ping Communication
+
+![Figure 3: MPI Ping Communication](mpi_ping.png)
+
+#### Figure 4: MPI Send/Receive Execution
+
+![Figure 4: MPI Send/Receive Execution](mpi_send_recv.png)
