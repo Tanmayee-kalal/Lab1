@@ -59,6 +59,7 @@ The random number generator was initialized using:
 
 ```c
 srand(42);
+```
 
 ## 7. Sequential Implementation
 
