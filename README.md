@@ -182,6 +182,6 @@ CUDA provides massive parallelism because many matrix elements can be calculated
 
 ![Execution Time Scaling Across Problem Sizes](matrix_scaling_chart.png) 
 
-### Combined Performance & Speedup Benchmarks
+## Performance Comparison Charts
 
-![Combined Performance and Speedup Benchmarks](combined_performance_speedup.png)
+![Performance Comparison Charts](performance_comparison_charts.png)
