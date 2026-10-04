@@ -269,4 +269,21 @@ The following parameters were considered during the experiment:
 7. Compare the execution times.
 8. Calculate speedup and efficiency.
 9. Represent the results using tables and graphs.
+### 12.1 Performance Results
 
+The performance of the OpenMP implementation was evaluated using 1, 2, 4, and 8 threads. The execution time, speedup, and efficiency were recorded for each thread configuration.
+
+| Number of Threads | Execution Time (s) | Speedup | Efficiency (%) |
+|---:|---:|---:|---:|
+| 1 | 0.031602 | 0.846 | 84.60 |
+| 2 | 0.016249 | 1.645 | 82.25 |
+| 4 | 0.008296 | 3.222 | 80.55 |
+| 8 | 0.005973 | 4.476 | 55.95 |
+
+### 12.2 Results Analysis
+
+The results show that execution time decreases as the number of OpenMP threads increases. The execution time decreases from **0.031602 seconds with 1 thread** to **0.005973 seconds with 8 threads**.
+
+The highest measured speedup is **4.476 with 8 threads**. The corresponding efficiency is **55.95%**.
+
+The results demonstrate that OpenMP parallelization can significantly reduce execution time for the maximum/minimum search operation. However, the efficiency decreases as the number of threads increases, which can be attributed to parallelization overhead, thread management, synchronization, and the available processing resources.
