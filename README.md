@@ -80,3 +80,21 @@ The sequential execution time is used as the baseline for calculating the speedu
 <img src="https://raw.githubusercontent.com/Tanmayee-kalal/Lab1/main/OpenMP.jpeg" alt="OpenMP Execution" width="800">
 
 **Figure 2:** OpenMP matrix multiplication execution using 8 threads.
+
+## 3. MPI
+
+MPI uses distributed-memory parallelism. The matrix computation is divided between multiple MPI processes.
+
+### Compilation
+
+```bash
+mpicc -O2 src/mpi/matrix_mpi.c -o mpi_matrix_mul
+
+mpirun -np 4 ./mpi_matrix_mul
+
+mpirun --hostfile hostfile -np 4 ./mpi_matrix_mul
+
+
+So yes — **`Execution`, `Compilation`, `For a configured host file`, and `MPI Communication` are all part of the README.**
+
+If you have more sections below **MPI Communication**, send me the screenshot and I'll give you the **entire thing in one copy-paste block**.
