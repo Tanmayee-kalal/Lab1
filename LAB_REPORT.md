@@ -152,3 +152,17 @@ The OpenMP header is included using:
 
 ```c
 #include <omp.h>
+### 9.5 Execution Time Measurement
+
+The OpenMP timing function `omp_get_wtime()` can be used to measure execution time.
+
+Example:
+
+```c
+double start = omp_get_wtime();
+
+/* Program execution */
+
+double end = omp_get_wtime();
+
+double execution_time = end - start;
