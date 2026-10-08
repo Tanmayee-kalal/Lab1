@@ -81,26 +81,3 @@ The sequential execution time is used as the baseline for calculating the speedu
 
 **Figure 2:** OpenMP matrix multiplication execution using 8 threads.
 
-## 3. MPI
-
-MPI uses distributed-memory parallelism. The matrix computation is divided between multiple MPI processes.
-
-### Compilation
-
-```bash
-mpicc -O2 src/mpi/matrix_mpi.c -o mpi_matrix_mul
-```
-
-### Execution
-
-```bash
-mpirun -np 4 ./mpi_matrix_mul
-```
-
-For a configured host file:
-
-```bash
-mpirun --hostfile hostfile -np 4 ./mpi_matrix_mul
-```
-
-
